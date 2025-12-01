@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitSpawnPrioritizationForAI", "UnitSpawnPrioritizationForAI.csproj", "{58E4DE3E-6CF9-93CD-2E0F-43ED2E1AF4E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E4DE3E-6CF9-93CD-2E0F-43ED2E1AF4E9}.Debug|x64.ActiveCfg = Debug|x64
+		{58E4DE3E-6CF9-93CD-2E0F-43ED2E1AF4E9}.Debug|x64.Build.0 = Debug|x64
+		{58E4DE3E-6CF9-93CD-2E0F-43ED2E1AF4E9}.Release|x64.ActiveCfg = Release|x64
+		{58E4DE3E-6CF9-93CD-2E0F-43ED2E1AF4E9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E758881-28CE-44C5-B102-7F61405E2650}
+	EndGlobalSection
+EndGlobal
