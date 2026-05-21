@@ -27,10 +27,7 @@ namespace UnitSpawnPrioritizationForAI
                 if (!patched && codes[i].opcode == OpCodes.Ldc_I4_1 && i + 1 < codes.Count && codes[i + 1].opcode == OpCodes.Stloc_0)
                 {
                     codes[i] = new CodeInstruction(OpCodes.Call,
-                        AccessTools.Method(
-                            typeof(DefaultTroopSupplierProbabilityModelPatch),
-                            nameof(GetDefaultUnitSpawnPrioritization))
-                        );
+                        AccessTools.Method(typeof(DefaultTroopSupplierProbabilityModelPatch), nameof(GetDefaultUnitSpawnPrioritization)));
                     patched = true;
                 }
             }
